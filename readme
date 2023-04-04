@@ -1,7 +1,7 @@
 
-#################################
-## -- how to dizkneelande ---- ##
-#################################
+###########################################
+## -- how to dizkneelande a desktop ---- ##
+###########################################
 
 - minimal install of arch
 - sudo pacman -S xdg-user-dirs
@@ -15,6 +15,6 @@
 - git clone https://github.com/dizkneelande/desktop
 - cd desktop
 - ./install.sh
-- reboot\
+- reboot
 - catppuccin the following: xfce-terminal, geany, papirus, grub, plymouth
 - oh-my-bash: half-life theme
