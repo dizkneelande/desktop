@@ -1,0 +1,20 @@
+
+#################################
+## -- how to dizkneelande ---- ##
+#################################
+
+- minimal install of arch
+- sudo pacman -S xdg-user-dirs
+- xdg-user-dirs-update
+- sudo pacman -S --needed base-devel
+- cd ~/Downloads
+- git clone https://aur.archlinux.org/yay-bin
+- cd yay-bin
+- makepkg -si
+- cd ~/Documents
+- git clone https://github.com/dizkneelande/desktop
+- cd desktop
+- ./install.sh
+- reboot\
+- catppuccin the following: xfce-terminal, geany, papirus, grub, plymouth
+- oh-my-bash: half-life theme
