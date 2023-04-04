@@ -15,6 +15,7 @@
 - git clone https://github.com/dizkneelande/desktop
 - cd desktop
 - ./install.sh
+- wait for ages zzz
 - reboot
 - catppuccin the following: xfce-terminal, geany, papirus, grub, plymouth
 - oh-my-bash: half-life theme
