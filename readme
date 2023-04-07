@@ -5,7 +5,6 @@ TODO: finish install script
 ###########################################
 
 - minimal install of arch
-- sudo pacman -S --needed base-devel
 - git clone https://github.com/dizkneelande/hyprland
 - cd hyprland
 - chmod +x install.sh
