@@ -33,6 +33,7 @@ else
     echo -e "$CWR - install yay first you great buffoon"
     read -n1 -rep $'[\e[1;33mACTION\e[0m] - u wanna install yay? (y,n) ' INSTYAY
     if [[ $INSTYAY == "Y" || $INSTYAY == "y" ]]; then
+    	sudo pacman -S --needed --noconfirm base-devel
         git clone https://aur.archlinux.org/yay-git.git &>> $INSTLOG
         cd yay-git
         makepkg -si --noconfirm &>> ../$INSTLOG
