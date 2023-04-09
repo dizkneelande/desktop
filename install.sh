@@ -55,7 +55,7 @@ if [[ $INST == "Y" || $INST == "y" ]]; then
     
     #Stage 1
     echo -e "\n$CNT - installing many stuff... brb"
-    for SOFTWR in xdg-user-dirs hyprland hyprpicker ttf-ubuntu-font-family ttf-ubuntu-nerd thunar thunar-archive-plugin file-roller xfce4-terminal swaybg swaylock-effects wofi wlogout mako polkit-gnome python-requests swappy grim slurp pamixer brightnessctl gvfs bluez bluez-utils xfce4-settings xdg-desktop-portal-hyprland-git sddm-git noise-suppression-for-voice wl-clipboard wf-recorder noto-fonts-cjk brave-bin bibata-cursor-theme-bin catppuccin-gtk-theme-mocha papirus-icon-theme waybar-hyprland-git nwg-look kitty noto-fonts-emoji sddm-config-editor-git plymouth-git sddm-catppuccin-git qt5-wayland geany pavucontrol sddm-git pipewire pipewire-{alsa,jack,pulse} 
+    for SOFTWR in xdg-user-dirs libjpeg hyprland hyprpicker ttf-ubuntu-font-family ttf-ubuntu-nerd thunar thunar-archive-plugin file-roller xfce4-terminal swaybg swaylock-effects wofi wlogout mako polkit-gnome python-requests swappy grim slurp pamixer brightnessctl gvfs bluez bluez-utils xfce4-settings xdg-desktop-portal-hyprland-git sddm-git noise-suppression-for-voice wl-clipboard wf-recorder noto-fonts-cjk brave-bin bibata-cursor-theme-bin catppuccin-gtk-theme-mocha papirus-icon-theme waybar-hyprland-git nwg-look kitty noto-fonts-emoji sddm-config-editor-git plymouth-git sddm-catppuccin-git qt5-wayland geany pavucontrol sddm-git pipewire pipewire-{alsa,jack,pulse} 
     do
         #First lets see if the package is there
         if yay -Qs $SOFTWR > /dev/null ; then
@@ -64,7 +64,7 @@ if [[ $INST == "Y" || $INST == "y" ]]; then
             echo -e "$CNT - now installing $SOFTWR ..."
             yay -S --noconfirm $SOFTWR &>> $INSTLOG
             if yay -Qs $SOFTWR > /dev/null ; then
-                echo -e "$COK - $SOFTWR was installedn"
+                echo -e "$COK - $SOFTWR was installed"
             else
                 echo -e "$CER - $SOFTWR install failed, check the install.log"
                 exit
@@ -102,6 +102,7 @@ if [[ $CFG == "Y" || $CFG == "y" ]]; then
     # Set some files as executable
     echo -e "$CNT - setting some file as executable" 
     chmod +x ~/.config/waybar/scripts/waybar-wttr.py
+fi
 
 ### Script is done ###
 echo -e "$CNT - omg we done!!"
