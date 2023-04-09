@@ -6,7 +6,7 @@ window {
 	background-color: @base;
 }
 button {
-    color: @lavender;
+    color: @rosewater;
 	background-color: @surface0;
 	border-style: solid;
 	border-width: 2px;
