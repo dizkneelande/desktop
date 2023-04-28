@@ -41,7 +41,10 @@ set nobackup
 set scrolloff=10
 
 " Do not wrap lines. Allow long lines to extend as far as the line goes.
-set nowrap
+"set nowrap
+
+" Status bar
+set laststatus=2
 
 " While searching though a file incrementally highlight matching characters as you type.
 set incsearch
