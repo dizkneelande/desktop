@@ -1,15 +1,11 @@
 TODO: resolve jack2 conflict
 
-###########################################
-## -- how to dizkneelande a desktop ---- ##
-###########################################
-
+s
 - minimal install of arch
 - git clone https://github.com/dizkneelande/hyprland
 - cd hyprland
 - chmod +x install.sh
 - ./install.sh
 - wait for ages zzz
-- reboot
-- catppuccin the following: xfce-terminal, geany, papirus, grub, plymouth
+- catppuccin the following: xfce-terminal, foot, geany, papirus, grub, plymouth
 - oh-my-bash: half-life theme
