@@ -3,11 +3,11 @@
 	background-image: none;
 }
 window {
-	background-color: @base;
+	background-color: #282828;
 }
 button {
-    color: @rosewater;
-	background-color: @surface0;
+    color: #ebdbb2;
+	background-color: #282828;
 	border-style: solid;
 	border-width: 2px;
 	background-repeat: no-repeat;
@@ -16,7 +16,7 @@ button {
 }
 
 button:focus, button:active, button:hover {
-	background-color: @surface2;
+	background-color: #504945;
 	outline-style: none;
 }
 
