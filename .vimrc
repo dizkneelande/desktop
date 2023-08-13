@@ -16,6 +16,9 @@ syntax on
 " Show line numbers
 set number
 
+" Show relative line numbers
+set relativenumber
+
 " Highlight cursor line underneath the cursor horizontally.
 "set cursorline
 
