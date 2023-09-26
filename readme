@@ -1,10 +1,1 @@
 TODO: resolve jack2 conflict
-
-- minimal install of arch
-- git clone https://github.com/dizkneelande/hyprland
-- cd hyprland
-- chmod +x install.sh
-- ./install.sh
-- wait for ages zzz
-- catppuccin the following: xfce-terminal, foot, geany, papirus, grub, plymouth
-- oh-my-bash: half-life theme
