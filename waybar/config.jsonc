@@ -6,7 +6,7 @@
     "margin-bottom": 0,
     "margin-left": 0,
     "margin-right": 0,
-    "modules-left": ["custom/launcher", "wlr/workspaces", "custom/playerctl", "custom/playerlabel"],
+    "modules-left": ["custom/launcher", "hyprland/workspaces", "custom/playerctl", "custom/playerlabel"],
     "modules-center": ["cpu", "memory", "disk", "tray"],
     "modules-right": ["backlight", "pulseaudio", "battery", "clock"],
     // Modules configuration
@@ -18,7 +18,7 @@
 	},
 	
 
-	"wlr/workspaces": {
+	"hyprland/workspaces": {
         "active-only": false,
         "all-outputs": true,
         "disable-scroll": false,
@@ -35,6 +35,9 @@
 			"urgent": "",
 			"active": "",
 			"default": "󰧞",
+            //"urgent": "󱨈",
+            //"active": "󱓻",
+            //"default": "󱓼",
     "sort-by-number": true
     },
     },
@@ -74,7 +77,7 @@
             "critical": 15
         },
         "format":"{icon}  {capacity}%",
-        "format-charging": "{capacity}% ",
+        "format-charging": "{capacity}% 󱊦",
         "format-plugged": "{capacity}% ",
         "format-alt": "{icon} {time}",
         // "format-good": "", // An empty format will hide the module
