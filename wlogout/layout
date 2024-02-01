@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "swaylock",
+    "action" : "$HOME/.local/bin/lock.sh",
     "text" : "Lock",
     "keybind" : "l"
 }
@@ -12,7 +12,7 @@
 }
 {
     "label" : "logout",
-    "action" : "pkill -u nell",
+    "action" : "pkill -u $USER",
     "text" : "Logout",
     "keybind" : "e"
 }
@@ -34,3 +34,4 @@
     "text" : "Reboot",
     "keybind" : "r"
 }
+

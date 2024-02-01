@@ -1,23 +1,30 @@
-@import "mocha.css";
 * {
 	background-image: none;
 }
 window {
-	background-color: #282828;
+	background-color: rgba(0, 0, 0, 0);
 }
 button {
-    color: #ebdbb2;
-	background-color: #282828;
+    color: #7aa2f7;
+    font-family: "Ubuntu";
+	background-color: #1A1B26;
+
+    border-radius: 12px;
 	border-style: solid;
 	border-width: 2px;
-	background-repeat: no-repeat;
+	
+    background-repeat: no-repeat;
 	background-position: center;
 	background-size: 25%;
 }
 
 button:focus, button:active, button:hover {
-	background-color: #504945;
-	outline-style: none;
+	background-color: #414868;
+	outline-style: solid;
+}
+
+#locak, #logout, #suspend, #hibernate, #shutdown, #reboot {
+    opacity: 0.9;
 }
 
 #lock {
@@ -43,3 +50,4 @@ button:focus, button:active, button:hover {
 #reboot {
     background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
 }
+

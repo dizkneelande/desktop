@@ -1,80 +1,60 @@
-window {
-    margin: 0px;
-    border: 5px solid #282828;
-    background-color: #282828;
-    border-radius: 15px;
-}
 
-#input {
-    padding: 4px;
-    margin: 4px;
-    padding-left: 20px;
-    border: none;
-    color: #ebdbb2;
-    font-weight: bold;
-    background-color: #282828;
-    background: ;
-   	outline: none;
-    border-radius: 15px;
-    margin: 10px;
-    margin-bottom: 2px;
+#window {
+    font-family: Ubuntu;
+    font-size: 18px;
+    background-color: #1a1b26;
+    color: #9aa5ce;
+    border: 2px solid #bb9af7;
+    border-radius: 8px;
+    opacity: 0.99;
 }
-#input:focus {
-    border: 0px solid #282828;
-    margin-bottom: 0px;
-}
-
-#inner-box {
-    margin: 4px;
-    border: 10px solid #282828;
-    color: #f2cdcd;
-    font-weight: bold;
-    background-color: #282828;
-    border-radius: 15px;
-}
-
+ 
 #outer-box {
-    margin: 0px;
-    border: none;
-    border-radius: 15px;
-    background-color: #282828;
+    padding: 20px;
 }
-
+ 
+#input {
+    background-color: #24283b;
+    border: 0px solid #bb9af7;
+    padding: 8px 12px;
+    opacity: 0.8;
+}
+ 
 #scroll {
-    margin-top: 5px;
-    border: none;
-    border-radius: 15px;
-    margin-bottom: 5px;
-    /* background: rgb(255,255,255); */
+    margin-top: 20px;
 }
-
-#img:selected {
-    background-color: #e5c890;
-    border-radius: 15px;
+ 
+#inner-box {
+    opacity: 0.8;
 }
-
-#text:selected {
-    color: #282828;
-    margin: 0px 0px;
-    border: none;
-    border-radius: 15px;
-    background-color: #e5c890;
+ 
+#img {
+    padding-right: 8px;
 }
-
+ 
 #text {
-    color: #ebdbb2;
+    color: #9aa5ce;
 }
-
+ 
+#text:selected {
+    color: #1a1b26;
+}
+ 
 #entry {
-    margin: 0px 0px;
-    border: none;
-    border-radius: 15px;
-    background-color: transparent;
+    padding: 6px;
 }
-
+ 
 #entry:selected {
-    margin: 0px 0px;
-    border: none;
-    border-radius: 15px;
-    background-color: #e5c890;
+    background-color: #7aa2f7;
+    color: #9aa5ce;
+}
+ 
+#unselected {
+}
+ 
+#selected {
+}
+ 
+#input, #entry:selected {
+    border-radius: 4px;
 }
